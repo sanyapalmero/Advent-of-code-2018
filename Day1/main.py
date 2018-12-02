@@ -5,7 +5,7 @@ def get_final_frequency(frequency_list):  #part 1
     return final_frequency
 
 
-def get_first_double_freq_slow(frequency_list):  #my first decision of part 2, and it works very slow
+def get_first_double_freq_slow(frequency_list):  #my first solution of part 2, and it works very slow
     double_frequency = 0
     double_frequency_list = []
     is_founded = False
@@ -24,7 +24,7 @@ def get_first_double_freq_slow(frequency_list):  #my first decision of part 2, a
     return res
 
 
-def get_first_double_freq_fast(frequency_list):  #my second decision of part 2, it works very fast :)
+def get_first_double_freq_fast(frequency_list):  #my second solution of part 2, it works very fast :)
     double_frequency = 0
     double_frequency_list = set()
     is_founded = False
