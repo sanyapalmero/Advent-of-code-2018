@@ -10,7 +10,7 @@ def get_first_double_freq_slow(frequency_list):  #my first decision of part 2, a
     double_frequency_list = []
     is_founded = False
     count = 0
-    while is_founded == False:
+    while not is_founded:
         for frequency in frequency_list:
             double_frequency += frequency
             double_frequency_list.append(double_frequency)
@@ -28,7 +28,7 @@ def get_first_double_freq_fast(frequency_list):  #my second decision of part 2, 
     double_frequency = 0
     double_frequency_list = set()
     is_founded = False
-    while is_founded == False:
+    while not is_founded:
         for frequency in frequency_list:
             double_frequency += frequency
             if double_frequency in double_frequency_list:
